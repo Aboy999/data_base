@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 版心 */
+.w{
+    margin: 0px auto;
+    width: 1200px;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+li{
+    list-style: none;
+}
+.top_nav{
+    height: 82px;
+    line-height: 82px;
+    overflow: hidden;
+    /* background-color: pink; */
+    border-bottom: 2px solid #b1191a;
+}
+.top_nav .logo{
+    margin-top: 16px;
+}
+.top_nav .logo a{
+    display: block;
+}
+.top_nav .logo img{
+    width: 172px;
+}
+.form_wrapper{
+    height: 550px;
+    margin-top: 21px;
+    border: 1px solid #dfdfdf;
+}
+.form_wrapper .form_top{
+    height: 41px;
+    line-height: 41px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+}
+.form_wrapper .form_top h5{
+    float: left;
+    padding-left: 10px;
+    /* padding: 11px 10px; */
+    font-size: 18px;
+    color: #333;
+}
+.form_wrapper .form_top span{
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.form_wrapper .form_top span a{
+    text-decoration: none;
+    color: red;
+}
+.form_wrapper .main{
+    width: 600px;
+    height: 370px;
+    margin-left: 320px;
+    margin-top: 54px;
+    /* background-color: pink; */
+}
+.form_wrapper .main li{
+    margin-bottom: 20px;
+}
+.form_wrapper .main li:nth-child(4){
+    margin-left: 160px;
+    color: #fff;
+}
+.form_wrapper .main li:nth-child(4) p{
+    font-size: 12px;
+    color: #b3b3b3;
+}
+.form_wrapper .main .l1 i,
+.form_wrapper .main .l2 i,
+.form_wrapper .main .l3 i,
+.form_wrapper .main .l4 i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 12px;
+    background-image: url(../images/success.png);
+    vertical-align: middle;
+}
+.form_wrapper .main .l2 i,
+.form_wrapper .main .l4 i{
+
+    background-image: url(../images/error.png);
+}
+.form_wrapper .main label{
+    
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    width: 78px;
+    text-align: right;
+    font-size: 14px;
+    color: #4d4d4d;
+    /* background-color: yellowgreen; */
+}
+.form_wrapper .main input{
+    width: 240px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #999;
+}
+.form_wrapper .main span{
+    font-size: 12px;
+    color: #df3033;
+}
+.form_wrapper .main .s1{
+    margin-left: 10px;
+}
+.form_wrapper .main .s1,
+.form_wrapper .main .s2,
+.form_wrapper .main .s3{
+    height: 13px;
+    width: 34px;
+    padding: 0px 10px;
+    
+    color: #fff;
+    background-color: orange;
+}
+.form_wrapper .main .s2{
+    background-color: greenyellow;
+}
+.form_wrapper .main .s1{
+    background-color: red;
+}
+.form_wrapper .main .check{
+    /* height: 10px; */
+    margin: 44px 0 51px 84px;
+}
+.form_wrapper .main input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    /* margin-top: 10px; */
+    vertical-align: middle;
+    border: 1px solid #999;
+}
+
+.form_wrapper .main .check .ss1,
+.form_wrapper .main .check .ss2{
+    display: inline-block;
+    margin-bottom: 10px;
+    /* line-height: 10px; */
+    font-size: 12px;
+    color: #4d4d4d;
+}
+.form_wrapper .main .check .ss2 a{
+    text-decoration: none;
+    color: #1ba1e6;
+}
+.form_wrapper .main input[type=submit]{
+    width: 200px;
+    height: 34px;
+    margin-left: 90px;
+    cursor: pointer;
+    background-color: #c81623;
+    color: #fff;
+}
+.footer div{
+    text-align: center;
+    font-size: 12px;
+}
+.footer div:first-child{
+    margin: 20px 0 16px 0;
+    color: #999;
+}
+.footer div:last-child{
+    color: #666;
+    margin-bottom: 16px;
+}

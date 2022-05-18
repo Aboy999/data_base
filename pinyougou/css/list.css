@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav_wrapper .logo{
+    position: relative;
+}
+.nav_wrapper h2{
+    position: absolute;
+    height: 32px;
+    line-height: 42px;
+    padding-left: 12px;
+    left: 199px;
+    top: 18px;
+    border-left: 1px solid #b1191a;
+}
+.header .left{
+    float: left;
+}
+.header .left h3{
+    float: left;
+    font-size: 16px;
+    line-height: 43px;
+    padding: 0px 28px;
+}
+
+.header .header_wrapper .right li a{
+    font-size: 14px;
+    color: #333;
+}
+.header .header_wrapper>ul>li>a {
+    display: block;
+    height: 42px;
+    padding: 0 24px;
+    font-size: 16px;
+    color: #333;
+}
+.header .header_wrapper .right li a:hover{
+    color: #b1191a;
+}
+.header .header_wrapper .right li:last-child a::after{
+    /* display: inline-block; */
+    font-family: 'icomoon';
+    content: '\e91e';
+    vertical-align: middle;
+}
+.pic{
+    height: 120px;
+}
+.goods_wrapper ul{
+    margin-bottom: 20px;
+}
+.goods_wrapper ul li{
+    float: left;
+    height: 460px;
+    width: 290px;
+    margin-right: 13px;
+    margin-top: 27px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    /* background-color: pink; */
+}
+.goods_wrapper ul li a{
+    display: block;
+    width: 290px;
+    height: 460px;
+}
+.goods_wrapper ul li:hover{
+    border: 1px solid #e12228;
+}
+.goods_wrapper ul li:nth-child(4n){
+    margin-right: 0px;
+}
+
+.goods_wrapper ul li:nth-child(4n) .phone .son{
+    margin-left: -1px;
+}
+.goods_wrapper .phone_wrapper img{
+    width: 290px;
+}
+.goods_wrapper .phone_wrapper .phone{
+    margin-top: -18px;
+}
+.goods_wrapper .phone_wrapper .phone>p{
+    margin: 7px 10px 17px 13px;
+    font-size: 14px;
+    color: #666;
+}
+.goods_wrapper .phone_wrapper .phone>h3{
+    margin: 0 0 13px 15px;
+    font-size: 21px;
+    color: #e60012;
+    font-weight: 700;
+}
+.goods_wrapper .phone>h3>span{
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.goods_wrapper .phone_wrapper .bottom{
+    margin: 0 0 13px 15px;
+
+}
+.goods_wrapper .phone_wrapper .bottom .p1{
+    float: left;
+    margin-right: 11px;
+    font-size: 14px;
+    color: #666;
+}
+.goods_wrapper .phone_wrapper .bottom>div{
+    float: left;
+    width: 133px;
+    height: 13px;
+    margin-top: 4px;
+    margin-right: 11px;
+    border: 1px solid #e12228;
+    /* background-color: yellowgreen; */
+    border-radius: 13px;
+}
+.goods_wrapper .phone_wrapper .bottom>div .son{
+    height: 100%;
+    width: 37px;
+    transition: all 2s;
+    border-radius: 13px;
+    /* border: 1px solid #e12228; */
+    background-color:#e12228;
+}
+.goods_wrapper .phone_wrapper .bottom>div:hover .son{
+    width: 132px;
+}
+.goods_wrapper ul li:nth-child(4n) .bottom>div:hover .son{
+    width: 133px;
+
+}
+.goods_wrapper .phone_wrapper .bottom .p2{
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
+.goods_wrapper .phone_wrapper .bottom .p2 span{
+    font-style: 16px;
+    color: #e12228;
+}
+.goods_wrapper .phone_wrapper .button {
+    /* display: block; */
+    margin-top: 10px;
+    float: left;
+    width: 290px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+   
+}
+.goods_wrapper .phone_wrapper .button input{
+    border: 0;
+    width: 292px;
+    height: 51px;
+    cursor: pointer;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #fff;
+}
+.goods_wrapper ul li:nth-child(4-n) input{
+    position: absolute;
+}

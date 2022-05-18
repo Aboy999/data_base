@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #707070;
+}
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 750px;
+  height: 1650px;
+  background: #f2f4f7;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+.header {
+  width: 100%;
+  height: 2.5867rem;
+  line-height: 2.5867rem;
+  text-align: center;
+  background-color: #fff;
+}
+.header h3 {
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.0267rem solid #EAEAEA;
+  font-size: 0.9333rem;
+}
+.banner {
+  padding-bottom: 1.1467rem;
+  background-color: #fff;
+}
+.banner .top {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.1733rem 0 1.6rem 0;
+}
+.banner .top a {
+  font-size: 0.6667rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 33.333%;
+}
+.banner .top a img {
+  width: 3.7067rem;
+  height: 3.7067rem;
+}
+.banner .top a span {
+  margin-top: 0.4267rem;
+}
+.banner .top .item {
+  margin-bottom: 1.84rem;
+}
+.banner .bottom {
+  height: 4.0533rem;
+  width: 100%;
+}
+.banner .bottom .wrap {
+  margin: 0 0.48rem;
+}
+.banner .bottom img {
+  width: 100%;
+  height: 100%;
+}
+.job {
+  background-color: #fff;
+  margin-top: 0.2667rem;
+  width: 100%;
+  padding: 0 0.64rem;
+}
+.job .hd {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 2.32rem;
+  line-height: 2.32rem;
+}
+.job .left h4 {
+  display: inline-block;
+  margin: 0;
+  font-size: 0.7467rem;
+  color: #333;
+  font-weight: 700;
+  margin-left: 0.48rem;
+}
+.job .left span {
+  display: inline-block;
+  width: 0.9867rem;
+  height: 0.9867rem;
+}
+.job .left span img {
+  margin-top: 0.2133rem;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.job .right p {
+  font-size: 0.5867rem;
+  color: #999;
+}
+.job .bd {
+  position: relative;
+}
+.job .bd .swiper-button-next,
+.job .bd .swiper-button-prev {
+  position: absolute;
+  color: #666;
+}
+.job .bd .swiper-container {
+  width: 14.4rem;
+  height: 100%;
+}
+.job .bd .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.5;
+}
+.job .bd .swiper-slide img {
+  width: 9.0133rem;
+  height: 10.0267rem;
+}
+.job .bd .swiper-slide span {
+  width: 9.0133rem;
+  font-size: 0.6667rem;
+  color: #333;
+  margin-top: 0.64rem;
+}
+.job .bd .swiper-slide-active,
+.job .bd .swiper-slide-duplicate-active {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 9999;
+}
+.study {
+  width: 100%;
+  overflow: hidden;
+}
+.study .swiper {
+  width: 100%;
+  height: 100%;
+}
+.study .swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 7.2533rem;
+  height: 9.3333rem;
+  padding-bottom: 0.4rem;
+  margin-top: 0.8rem;
+  box-shadow: 0.0267rem 0.1267rem 0.3067rem rgba(0, 0, 0, 0.1);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.study .swiper-slide .p1 {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 0.2667rem;
+  margin-top: 0.4rem;
+}
+.study .swiper-slide .p2 {
+  font-size: 0.6933rem;
+  text-align: left;
+  margin: 0.5333rem 0 0.8rem 0.5rem;
+}
+.study .swiper-slide .p2 span {
+  color: #f40;
+}
+.study .swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.footer {
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 3.0133rem;
+  border-top: 1px solid #e2e2e2;
+  background-color: #fff;
+  z-index: 9999999;
+}
+.footer a {
+  font-size: 0.5867rem;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.footer a img {
+  width: 1.04rem;
+  height: 1.0933rem;
+  margin: 0.5067rem 0 0.2933rem 0;
+}
+.footer a:first-child {
+  color: #52C4F0;
+}
